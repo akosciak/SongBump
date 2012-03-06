@@ -7,4 +7,4 @@ var serverFunction = function(request,response) {
 	response.end();
 }
 
-http.createServer(serverFunction).listen(8888);
+http.createServer(serverFunction).listen(80);
